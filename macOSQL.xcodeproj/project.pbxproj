@@ -14,6 +14,8 @@
 		25944A5F2844272E00EE0CFB /* macOSQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25944A5E2844272E00EE0CFB /* macOSQLTests.swift */; };
 		25944A692844272E00EE0CFB /* macOSQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25944A682844272E00EE0CFB /* macOSQLUITests.swift */; };
 		25944A6B2844272E00EE0CFB /* macOSQLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25944A6A2844272E00EE0CFB /* macOSQLUITestsLaunchTests.swift */; };
+		25944A78284599B100EE0CFB /* TextEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25944A77284599B100EE0CFB /* TextEditView.swift */; };
+		25944A7A28459BD400EE0CFB /* QueryResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25944A7928459BD400EE0CFB /* QueryResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		25944A642844272E00EE0CFB /* macOSQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOSQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25944A682844272E00EE0CFB /* macOSQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSQLUITests.swift; sourceTree = "<group>"; };
 		25944A6A2844272E00EE0CFB /* macOSQLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSQLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25944A77284599B100EE0CFB /* TextEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditView.swift; sourceTree = "<group>"; };
+		25944A7928459BD400EE0CFB /* QueryResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				25944A4C2844272500EE0CFB /* macOSQLApp.swift */,
 				25944A4E2844272500EE0CFB /* ContentView.swift */,
+				25944A77284599B100EE0CFB /* TextEditView.swift */,
+				25944A7928459BD400EE0CFB /* QueryResultView.swift */,
 				25944A502844272D00EE0CFB /* Assets.xcassets */,
 				25944A552844272D00EE0CFB /* macOSQL.entitlements */,
 				25944A522844272D00EE0CFB /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25944A7A28459BD400EE0CFB /* QueryResultView.swift in Sources */,
 				25944A4F2844272500EE0CFB /* ContentView.swift in Sources */,
 				25944A4D2844272500EE0CFB /* macOSQLApp.swift in Sources */,
+				25944A78284599B100EE0CFB /* TextEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
